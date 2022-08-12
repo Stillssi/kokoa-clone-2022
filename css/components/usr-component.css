@@ -1,0 +1,43 @@
+.usr-component {
+  justify-content: space-between;
+}
+.usr-component,
+.usr-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.usr-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.usr-component__title {
+  font-weight: 600;
+  font-size: 20px;
+}
+.usr-component__subtitle {
+  margin-top: 8px;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.usr-component__avatar-xl {
+  width: 80px;
+  height: 80px;
+}
+
+.usr-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+.usr-component__title--not-bold {
+  font-weight: 500;
+}
+
+.usr-component__column:last-child {
+  color: rgba(0, 0, 0, 0.5);
+}
