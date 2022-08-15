@@ -1,5 +1,6 @@
 .usr-component {
   justify-content: space-between;
+  margin-bottom: 5px;
 }
 .usr-component,
 .usr-component__column:first-child {
